@@ -6,17 +6,17 @@ class test_cal (unittest.TestCase):
     def setUp(self):
         self.cal = SimpleCalculator()
     
-    def test_add(self):
+    def test_addition(self):
         self.assertEqual(self.cal.add(5, 5), 10)
         self.assertEqual(self.cal.add(10, 0), 10)
         self.assertEqual(self.cal.add(8, -2), 6)
     
-    def test_subtract(self):
+    def test_subtraction(self):
         self.assertEqual(self.cal.subtract(5, 5), 0)
         self.assertEqual(self.cal.subtract(10, 0), 10)
         self.assertEqual(self.cal.subtract(8, -2), 10)
     
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.cal.multiply(5, 5), 25)
         self.assertEqual(self.cal.multiply(10, 0), 0)
         self.assertEqual(self.cal.multiply(8, -2), -16)
