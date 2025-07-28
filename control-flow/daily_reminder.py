@@ -1,5 +1,5 @@
 task = input("Enter your task: ").lower()
-priority = input("input a Priority level (high/medium/low): ").lower()
+priority = input("input Priority level (high/medium/low): ").lower()  
 time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 match priority:
@@ -29,6 +29,3 @@ match priority:
 
     case _:
         print("input priority level. Please enter high, medium, or low")
-
-
-        control-flow/daily_reminder.py doesn't contain input\s*\(\s*['\"]Priority\s*\(high\/medium\/low\):\s*['\"]\s*\)
