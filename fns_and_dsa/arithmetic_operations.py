@@ -1,6 +1,6 @@
 # define the function and assign parameters to it
 
-def perform_operation (num1, num2, operation):
+def perform_operation(num1, num2, operation):
     # perform the operations
     if operation == "add":
         return num1 + num2
