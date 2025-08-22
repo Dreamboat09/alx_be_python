@@ -11,11 +11,11 @@ class BankAccount:
 
     # defining a method to withdraw an amount 
     def withdraw(self, amount: int):
-        if self.account_balance > amount:
+        if amount > self.account_balance:
             self.account_balance -= amount
         else:
             return False
         
     # defining a method to display balance
     def  display_balance(self):
-        print(f"Current Balance: ${self.account_balance}")
+        print(f"Current Balance: ${self.account_balance :.2f}")
