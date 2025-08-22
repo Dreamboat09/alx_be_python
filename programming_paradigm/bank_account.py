@@ -12,9 +12,9 @@ class BankAccount:
     # defining a method to withdraw an amount 
     def withdraw(self, amount: int):
         if amount > self.account_balance:
-            self.account_balance -= amount
-        else:
             return False
+        self.account_balance -= amount
+        return True
         
     # defining a method to display balance
     def  display_balance(self):
