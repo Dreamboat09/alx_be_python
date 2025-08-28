@@ -8,7 +8,7 @@ class Book:
         if title == self.title:
             self._is_checked_out = False
 
-    def check_in(self, title):
+    def return_book(self, title):
         if title == self.title:
             self._is_checked_out = True
 
