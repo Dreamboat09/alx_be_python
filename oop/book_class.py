@@ -12,7 +12,7 @@ class Book:
     
     #creation of the String Representation 
     def __str__(self):
-        return "{title} by {author}, published in {year}"
+        return f"{self.title} by {self.author}, published in {self.year}"
 
     #creation of the Official Representation
     def __repr__(self):
