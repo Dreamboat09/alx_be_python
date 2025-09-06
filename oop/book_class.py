@@ -8,7 +8,7 @@ class Book:
     
     #creation of the destructor
     def __del__(self):
-        print(f"Deleting {title}")
+        print(f"Deleting {self.title}")
     
     #creation of the String Representation 
     def __str__(self):
