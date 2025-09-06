@@ -7,7 +7,7 @@ class Book:
         self.year = year
     
     #creation of the destructor
-    def __del__(self, title):
+    def __del__(self):
         print(f"Deleting {title}")
     
     #creation of the String Representation 
